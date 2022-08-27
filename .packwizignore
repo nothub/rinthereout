@@ -1,0 +1,15 @@
+/.git/**
+/.idea/**
+/.vscode/**
+
+/.editorconfig
+/.gitattributes
+/.gitignore
+/.packwizignore
+
+/build.sh
+/*.mrpack
+
+/LICENSE.txt
+/NOTICES.md
+/README.md

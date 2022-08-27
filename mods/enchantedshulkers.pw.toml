@@ -1,0 +1,13 @@
+name = "EnchantedShulkers"
+filename = "enchantedshulkers-1.0.2+1.18.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/vUi6HFie/versions/9Cb04Gex/enchantedshulkers-1.0.2%2B1.18.2.jar"
+hash-format = "sha1"
+hash = "1ebcfeab0a8797772d725d719a994b06d62b7768"
+
+[update]
+[update.modrinth]
+mod-id = "vUi6HFie"
+version = "9Cb04Gex"

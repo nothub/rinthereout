@@ -1,0 +1,24 @@
+version:2975
+advancedItemTooltips:true
+autoJump:false
+bobView:false
+darkMojangStudiosBackground:true
+enableVsync:false
+guiScale:2
+joinedFirstServer:true
+pauseOnLostFocus:false
+realmsNotifications:false
+resourcePacks:["vanilla","programer_art","Fabric Mods","Theinar Language"]
+skipMultiplayerWarning:true
+snooperEnabled:false
+soundCategory_ambient:0.25
+soundCategory_block:0.5
+soundCategory_hostile:0.5
+soundCategory_master:0.5
+soundCategory_music:0.5
+soundCategory_neutral:0.25
+soundCategory_player:0.5
+soundCategory_record:0.1
+soundCategory_voice:0.25
+soundCategory_weather:0.25
+tutorialStep:none

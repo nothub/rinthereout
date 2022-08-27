@@ -1,0 +1,13 @@
+name = "Compact Machines - Fabric"
+filename = "compactmachines-4.5.0-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/abFBFCgY/versions/4.5.0-fabric/compactmachines-4.5.0-fabric.jar"
+hash-format = "sha1"
+hash = "17259cb93d678f44916fc249f9e70d77234cf087"
+
+[update]
+[update.modrinth]
+mod-id = "abFBFCgY"
+version = "zaKKhzhF"

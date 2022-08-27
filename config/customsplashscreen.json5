@@ -1,0 +1,18 @@
+{
+  // Change the design of the progress bar
+  "progressBarType": "Vanilla",
+  // Change the texture of the logo
+  "logoStyle": "Aspect1to1",
+  // Enable/Disable the background image
+  "backgroundImage": true,
+  // Change the color of the background
+  "backgroundColor": 2303013,
+  // Change the color of the progress bar
+  "progressBarColor": 15131325,
+  // Change the color of the progress bar frame
+  "progressFrameColor": 15131325,
+  "textures": {
+    "BackgroundTexture": "carina-nebula.png",
+    "Aspect1to1Logo": "dickbutt.png"
+  }
+}

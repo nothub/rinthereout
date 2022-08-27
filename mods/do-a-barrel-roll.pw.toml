@@ -1,0 +1,13 @@
+name = "Do a Barrel Roll"
+filename = "do-a-barrel-roll-1.2.2+1.18.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/6FtRfnLg/versions/LactAtLB/do-a-barrel-roll-1.2.2%2B1.18.jar"
+hash-format = "sha1"
+hash = "931f35da88f590f384fceb11a85a72226a76037e"
+
+[update]
+[update.modrinth]
+mod-id = "6FtRfnLg"
+version = "LactAtLB"
