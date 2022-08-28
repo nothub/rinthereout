@@ -3,13 +3,9 @@
 set -o errexit
 set -o pipefail
 
-log() {
-    echo >&2 "$*"
-}
-
 check_dependency() {
     if ! command -v "$1" >/dev/null 2>&1; then
-        log "Error: Missing dependency: $1"
+        echo >&2 "Error: Missing dependency: $1"
         exit 1
     fi
 }
@@ -34,7 +30,10 @@ for f in ./mods/*; do
     # shellcheck disable=SC2016
     mod_ids+=("%22$(rg 'mod-id = "([\d\w]{8})"' --only-matching --replace '$1' "${f}" | cat)%22")
 done
-id_param=$(IFS=, ; echo "ids=[${mod_ids[*]}]")
-curl --silent --location --get --data "${id_param}" --header "Accept: application/json" "https://api.modrinth.com/v2/projects" | jq >dependencies.json
+curl --silent --location --get \
+    --data "$(IFS=, ; echo "ids=[${mod_ids[*]}]")" \
+    --header "Accept: application/json" \
+    "https://api.modrinth.com/v2/projects" \
+    | jq >dependencies.json
 # TODO: filter json data
 # TODO: generate markdown
