@@ -18,6 +18,7 @@ check_dependency packwiz
 check_dependency curl
 check_dependency jq
 check_dependency rg
+check_dependency zip
 
 # build mrpack
 packwiz refresh
@@ -25,7 +26,7 @@ packwiz modrinth export
 
 # add override folders
 mrpack=$(find -- * -type f -iname '*.mrpack' | head -n1)
-# TODO
+zip --update --recurse-paths "${mrpack}" "overrides" "client-overrides" "server-overrides"
 
 # generate mod list
 mod_ids=()
@@ -35,3 +36,5 @@ for f in ./mods/*; do
 done
 id_param=$(IFS=, ; echo "ids=[${mod_ids[*]}]")
 curl --silent --location --get --data "${id_param}" --header "Accept: application/json" "https://api.modrinth.com/v2/projects" | jq >dependencies.json
+# TODO: filter json data
+# TODO: generate markdown
