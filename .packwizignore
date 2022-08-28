@@ -2,6 +2,10 @@
 /.idea/**
 /.vscode/**
 
+/overrides/**
+/client-overrides/**
+/server-overrides/**
+
 /.editorconfig
 /.gitattributes
 /.gitignore
@@ -9,6 +13,7 @@
 
 /build.sh
 /*.mrpack
+/dependencies.json
 
 /LICENSE.txt
 /README.md

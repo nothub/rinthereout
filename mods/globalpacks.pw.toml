@@ -1,0 +1,13 @@
+name = "Global Packs"
+filename = "global_packs-fabric-1.18.2-1.12.2.2_fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NRLPy2mk/versions/GOS17kxb/global_packs-fabric-1.18.2-1.12.2.2_fabric.jar"
+hash-format = "sha1"
+hash = "4ece643fd3e1299f1b801898c9c651b20b486643"
+
+[update]
+[update.modrinth]
+mod-id = "NRLPy2mk"
+version = "GOS17kxb"

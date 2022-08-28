@@ -1,58 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/betterf3.json"
-hash = "c7689942c28d5fdb51cd0ea71517e6ab183243c7d51a2284ad6f6b509ea66f9b"
-
-[[files]]
-file = "config/botania-client.json5"
-hash = "5f0fb88c8270338eb52712ce88f2526333dfab2e700cb83f9cc317b82cc48183"
-
-[[files]]
-file = "config/customsplashscreen.json5"
-hash = "0bfab9607e3b827a20607ce2d5f360d09601425bde55569555b76cc64cc8431e"
-
-[[files]]
-file = "config/customsplashscreen/carina-nebula.png"
-hash = "53e383ef9fd79d91fc48be292d9a19aa3613c93bfcb7e1c844e2bc91616e8338"
-
-[[files]]
-file = "config/customsplashscreen/dickbutt.png"
-hash = "6507931ac3722ab9343bce17a91a64b40331c2a640875ae9bbee1b9acbf5dff4"
-
-[[files]]
-file = "config/durabilityviewer.json"
-hash = "bed3e2ddaf95a1cf3d260e28e4ab169b4c6ff1cbc0ec04db0831ce73ee8530ad"
-
-[[files]]
-file = "config/journeymap-server.json"
-hash = "bbc4556c1292e6bbbdb1f3b720dc6b1716d17c88b373f63cec6b0ca196de2e97"
-
-[[files]]
-file = "config/modern_industrialization.toml"
-hash = "d6c29386786c43945e752d1d1b5f98d050b7d1910c170e98d8c346709b1c7f44"
-
-[[files]]
-file = "config/no_more_purple.json5"
-hash = "d0155a9192d5d38670e446b0f791ff17404d8e9fc4eed3bcb1301ec65e887fe8"
-
-[[files]]
-file = "config/sodium-extra-options.json"
-hash = "ac704a03d831061e20f5528499239be00d03180ce094c3df891ec6312476a1e7"
-
-[[files]]
-file = "config/sodium-options.json"
-hash = "c662ee9121f6a9b91f7a3d5f8c72cecbf5d4f013dcc5309831390969066b8924"
-
-[[files]]
-file = "config/things.json5"
-hash = "227dd506711d2f81cde7934a31977bc942a2107506430979f9824c9458cb34b3"
-
-[[files]]
-file = "credits.txt"
-hash = "6a6869927629d203108cbd54fdb6e9a2cb8ecc0cc4b1ee2988e35de6d4370d38"
-
-[[files]]
 file = "mods/ad-astra-fabric.pw.toml"
 hash = "58f020a43ef82eeb00ddc85c90a0c795df391e62e5781340fe52751eaa266fec"
 metafile = true
@@ -248,6 +196,11 @@ hash = "5dcaa3421100bf1b31f3aa17571607d49845723fbc139730d998b6a2752e6a2b"
 metafile = true
 
 [[files]]
+file = "mods/globalpacks.pw.toml"
+hash = "cdcaabf77376beb8db2950b9ec442214bc2470e03e6f42db2517dfc5c233f432"
+metafile = true
+
+[[files]]
 file = "mods/harvest-scythes.pw.toml"
 hash = "74c9be71a3c187077641a145024522dac63ca2b6eed538f35afab0704906050e"
 metafile = true
@@ -260,6 +213,11 @@ metafile = true
 [[files]]
 file = "mods/isometric-renders.pw.toml"
 hash = "6d87c09745fce63fb64d8c8a521491ed083068d0dfca426cd0b06dc4e24adf42"
+metafile = true
+
+[[files]]
+file = "mods/journeymap-integration.pw.toml"
+hash = "90a89a1a94884a4735d103b89ecfa2f6e813a932dc0cbe0b3aa0c25d31956601"
 metafile = true
 
 [[files]]
@@ -476,35 +434,3 @@ metafile = true
 file = "mods/wthit.pw.toml"
 hash = "d51ce9092dd3eea3016cf6ebad6624cb3a6fb7a13b22571abd9f702da53d6cdd"
 metafile = true
-
-[[files]]
-file = "options.txt"
-hash = "c139d7e2aa32d1aad575c8b4e4cf5650f508854cf87175985039be02d90f68e7"
-
-[[files]]
-file = "resourcepacks/VanillaTweaks_c640112.zip"
-hash = "c32bfdc6317ea23f6701263e9a8ea7221a3d0c602a2fa5b0f68b19f7849e4585"
-
-[[files]]
-file = "resourcepacks/VanillaTweaks_r467736.zip"
-hash = "df31d1aee64a0753297e7bb4905d3caf3736f3aeba390f682a8c59453de044cc"
-
-[[files]]
-file = "resourcepacks/anti enderman grief v1.1.2.zip"
-hash = "1d4a59bc8da213862bcadea288d2ebaa6f9b076b840a4267acd813c8a7c92fca"
-
-[[files]]
-file = "resourcepacks/bat membranes v1.0.3.zip"
-hash = "795b63c2a13a2096341f6ddf5c9c47e604b433651debe2698c43447b95a88404"
-
-[[files]]
-file = "resourcepacks/classic fishing loot v1.1.2.zip"
-hash = "3538d461d61a8f0a3fdf743fa2bc1dc2278b51a5d3a2a137044cf46220c24376"
-
-[[files]]
-file = "resourcepacks/more mob heads v2.9.5.zip"
-hash = "5af71ed66da183d9d3eaa3d8f014d69fb43ae18ec624c39cfdfbb02a0e88bf0e"
-
-[[files]]
-file = "resourcepacks/player head drops v1.1.2.zip"
-hash = "499d8f0c1df4bf220c5ae80b9484c886728cebf14b7611a2463846ec990669f1"

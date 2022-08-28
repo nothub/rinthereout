@@ -19,14 +19,13 @@ check_dependency curl
 check_dependency jq
 check_dependency rg
 
-rm -f ./*.mrpack
-
+# build mrpack
 packwiz refresh
 packwiz modrinth export
 
+# add override folders
 mrpack=$(find -- * -type f -iname '*.mrpack' | head -n1)
-# TODO: client distribution
-# TODO: server distribution
+# TODO
 
 # generate mod list
 mod_ids=()
@@ -34,8 +33,5 @@ for f in ./mods/*; do
     # shellcheck disable=SC2016
     mod_ids+=("%22$(rg 'mod-id = "([\d\w]{8})"' --only-matching --replace '$1' "${f}" | cat)%22")
 done
-id_param=$(
-    IFS=,
-    echo "ids=[${mod_ids[*]}]"
-)
-curl --silent --location --get --data "${id_param}" --header "Accept: application/json" "https://api.modrinth.com/v2/projects" | jq
+id_param=$(IFS=, ; echo "ids=[${mod_ids[*]}]")
+curl --silent --location --get --data "${id_param}" --header "Accept: application/json" "https://api.modrinth.com/v2/projects" | jq >dependencies.json
