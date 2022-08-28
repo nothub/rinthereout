@@ -4,12 +4,8 @@ set -o errexit
 set -o pipefail
 
 project_slug="rinthereout"
-minecraft_version="1.18.2"
-
-jvm_memory="2G"
-
-fabric_loader_version="0.14.9"
-fabric_installer_version="0.11.1"
+mc_version="1.18.2"
+jvm_memory="4G"
 
 for dep in "curl" "java" "jq" "unzip" "sha512sum" "inline-detox"; do
     if ! command -v "${dep}" >/dev/null 2>&1; then
@@ -22,11 +18,11 @@ mrpack="$(find -- * -maxdepth 0 -type f -iname "${project_slug}-*.mrpack" | head
 if [[ -z ${mrpack} ]]; then
     # find latest stable
     latest_json=$(curl --silent --location --header "Accept: application/json" "https://api.modrinth.com/v2/project/${project_slug}/version" |
-        #jq --raw-output --arg minecraft_version "$minecraft_version" '.[] | select( .version_type == "release" ) | select( .game_versions[] | contains($minecraft_version))' |
-        jq --raw-output --arg minecraft_version "$minecraft_version" '.[] | select( .game_versions[] | contains($minecraft_version))' |
+        #jq --raw-output --arg mc_version "$mc_version" '.[] | select( .version_type == "release" ) | select( .game_versions[] | contains($mc_version))' |
+        jq --raw-output --arg mc_version "$mc_version" '.[] | select( .game_versions[] | contains($mc_version))' |
         jq --raw-output '.files[] | select( .primary == true )' | jq --slurp '.[0]')
     if [[ ${latest_json} == "null" ]]; then
-        echo >&2 "No stable ${project_slug} ${minecraft_version} release found!"
+        echo >&2 "No stable ${project_slug} ${mc_version} release found!"
         exit 1
     fi
     # download mrpack
@@ -58,9 +54,22 @@ done
 
 # download fabric server
 if [[ ! -f "fabric-server.jar" ]]; then
+    loader_ver=$(curl --silent --location --header "Accept: application/json" \
+        "https://meta.fabricmc.net/v2/versions/loader/${mc_version}" |
+        jq --raw-output '.[0].loader.version')
+    installer_ver=$(curl --silent --location --header "Accept: application/json" \
+        "https://meta.fabricmc.net/v2/versions/installer" |
+        jq --raw-output '.[0].version')
     curl --location --progress-bar --remote-time --output "fabric-server.jar" \
-        "https://meta.fabricmc.net/v2/versions/loader/${minecraft_version}/${fabric_loader_version}/${fabric_installer_version}/server/jar"
+        "https://meta.fabricmc.net/v2/versions/loader/${mc_version}/${loader_ver}/${installer_ver}/server/jar"
+fi
+
+# eula
+if [[ ${MC_EULA} == "true" ]]; then
+    echo "eula=true" >"eula.txt"
+else
+    echo >&2 "Set MC_EULA=true to agree with Mojangs EULA: https://account.mojang.com/documents/minecraft_eula"
 fi
 
 # run server
-java -Xmx${jvm_memory} -jar fabric-server.jar nogui
+java -Xms${jvm_memory} -Xmx${jvm_memory} -jar fabric-server.jar nogui
