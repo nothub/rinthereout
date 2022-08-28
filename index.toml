@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/betterf3.json"
-hash = "c130d4fc97e01ee46f52dc9c9a0bffbd033706b9a054427ed324af986cda1e55"
+hash = "c7689942c28d5fdb51cd0ea71517e6ab183243c7d51a2284ad6f6b509ea66f9b"
 
 [[files]]
 file = "config/botania-client.json5"
@@ -99,6 +99,11 @@ hash = "18182cee02eddd04cf7a32fc6b34e566d108ebb011a3238ab0a5366e0b10b5a4"
 metafile = true
 
 [[files]]
+file = "mods/autopath.pw.toml"
+hash = "50bc82396c39b4753229892768746148dce75d67c4d4794a8558273fd930438f"
+metafile = true
+
+[[files]]
 file = "mods/badpackets.pw.toml"
 hash = "d8fe226cd050b8c94fcb98819b2646a74863ad8d52fc22db37c29fe66e53996d"
 metafile = true
@@ -151,6 +156,11 @@ metafile = true
 [[files]]
 file = "mods/create-fabric.pw.toml"
 hash = "d506aff4966cf0049497f348aecb880cd3dbade497746c84a91f6b3b133c47ae"
+metafile = true
+
+[[files]]
+file = "mods/createplus.pw.toml"
+hash = "84a26eada70c919e518bdc9f51f1df2b5283d98b6b1acd1d0ae33f162b5e26df"
 metafile = true
 
 [[files]]
@@ -344,6 +354,16 @@ hash = "fcb905ad88b2b325b3c2fecc42be0497a37b8b2ef3f804cffb99fc29a5e3e494"
 metafile = true
 
 [[files]]
+file = "mods/opac-fabric-create-support.pw.toml"
+hash = "50bd803afaf12d3406ad7bf1781e2f75bb38bbccb5d7720c32cf6f833a97eb15"
+metafile = true
+
+[[files]]
+file = "mods/open-parties-and-claims.pw.toml"
+hash = "1f1acbbbdfe91f9639c94fb1c9d00588a27f21640eaa3a1e4a9cd8a5f82df222"
+metafile = true
+
+[[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "8c752fa462607344229492d00c45ccd51a209f9338562e2d95b84d88d5cbcf1f"
 metafile = true
@@ -429,6 +449,11 @@ hash = "722031c0ae5d2de71783d6c4bfbf1c5cd25c65e55cb42d8bb4f7cadf478c4368"
 metafile = true
 
 [[files]]
+file = "mods/tempad.pw.toml"
+hash = "1420f07c0e8b95e6546bf4713b2b0b594709baf44f9508eb3d4f704cfa5e9086"
+metafile = true
+
+[[files]]
 file = "mods/things.pw.toml"
 hash = "6ee2b19242cfa341ac4377d048890e4abed6b4ac5861199f1f1d78c2a082e1b7"
 metafile = true
@@ -450,4 +475,4 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "fc90d3d6d2e9ae56f52276a2f4d503209c34d11d1eba155b397dd932dbb1d8e3"
+hash = "93478201e5e5ec5dd8b08ccfe971aac8c76f55c8e94b659d3dab1f596526b5f2"
