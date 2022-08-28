@@ -30,8 +30,8 @@ curl --silent --location --get \
     | jq >dependencies.json
 
 # generate markdown list
-#echo "| Title | Description | License | Wiki | Source | Discord |" >MODS.md
-#echo "| --- | --- | --- | --- | --- | --- |" >>MODS.md
-#jq --raw-output \
-#    '.[] | [.title, .description, .license.name, .wiki_url, .source_url, .discord_url] | @tsv | sub("\t";" | ";"g")' \
-#    dependencies.json | sed 's/.*/| & |/' >>MODS.md
+echo "| Title | Description | License | Wiki | Source | Discord |" >MODS.md
+echo "| --- | --- | --- | --- | --- | --- |" >>MODS.md
+jq --raw-output \
+    '.[] | [.title, .description, .license.name, .wiki_url, .source_url, .discord_url] | @tsv | sub("\t";" | ";"g")' \
+    dependencies.json | sed 's/.*/| & |/' >>MODS.md
