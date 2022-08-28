@@ -10,7 +10,7 @@ trim_trailing_whitespace = true
 [*.sh]
 indent_size = 4
 
-[*.toml]
+[*.{json, json5, toml}]
 indent_size = 2
 
 [*.md]
