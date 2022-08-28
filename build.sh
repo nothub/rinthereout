@@ -35,5 +35,8 @@ curl --silent --location --get \
     --header "Accept: application/json" \
     "https://api.modrinth.com/v2/projects" \
     | jq >dependencies.json
-# TODO: filter json data
-# TODO: generate markdown
+echo "| Title | Description | License | Wiki | Source | Discord |" >MODS.md
+echo "| --- | --- | --- | --- | --- | --- |" >>MODS.md
+jq --raw-output \
+    '.[] | [.title, .description, .license.name, .wiki_url, .source_url, .discord_url] | @tsv | sub("\t";" | ";"g")' \
+    dependencies.json | sed 's/.*/| & |/' >>MODS.md
