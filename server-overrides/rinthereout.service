@@ -1,0 +1,54 @@
+# This is an example service unit file.
+
+[Unit]
+
+Description=Rinthereout Minecraft Server
+Documentation=https://github.com/nothub/rinthereout
+
+After=network.target
+
+[Service]
+
+Type=simple
+
+User=mc
+Group=mc
+
+WorkingDirectory=/opt/mc/rinthereout
+ReadWritePaths=/opt/mc/rinthereout
+
+# start jvm
+ExecStart=/opt/mc/rinthereout/start.sh
+
+# jvm success exit code
+SuccessExitStatus=143
+
+# always restart the service
+Restart=always
+# sleep delay prior to restart
+RestartSec=1
+# maximum time until startup completion is required
+TimeoutStartSec=600
+TimeoutStopSec=60
+
+# hardening
+ProtectSystem=strict
+ProtectHome=yes
+PrivateTmp=yes
+ProtectClock=yes
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectKernelLogs=yes
+ProtectControlGroups=yes
+RestrictAddressFamilies=AF_INET
+LockPersonality=yes
+#MemoryDenyWriteExecute=yes # breaks jvm functionality
+RestrictSUIDSGID=yes
+RemoveIPC=yes
+NoNewPrivileges=yes
+
+[Install]
+
+# if the service autostarts, the start should happen when the system and network is ready
+# https://unix.stackexchange.com/questions/506347/why-do-most-systemd-examples-contain-wantedby-multi-user-target/506374#506374
+WantedBy=multi-user.target
