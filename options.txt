@@ -8,7 +8,8 @@ guiScale:2
 joinedFirstServer:true
 pauseOnLostFocus:false
 realmsNotifications:false
-resourcePacks:["vanilla","programer_art","Fabric Mods","Theinar Language"]
+resourcePacks:["vanilla","programer_art","Fabric Mods","Theinar Language","file/VanillaTweaks_c640112.zip","file/more mob heads v2.9.5.zip","file/anti enderman grief v1.1.2.zip","file/bat membranes v1.0.3.zip","file/player head drops v1.1.2.zip","file/classic fishing loot v1.1.2.zip","file/VanillaTweaks_r467736.zip"]
+incompatibleResourcePacks:["file/VanillaTweaks_c640112.zip","file/more mob heads v2.9.5.zip","file/anti enderman grief v1.1.2.zip","file/bat membranes v1.0.3.zip","file/player head drops v1.1.2.zip","file/classic fishing loot v1.1.2.zip"]
 skipMultiplayerWarning:true
 snooperEnabled:false
 soundCategory_ambient:0.25

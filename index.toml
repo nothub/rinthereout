@@ -49,6 +49,10 @@ file = "config/things.json5"
 hash = "227dd506711d2f81cde7934a31977bc942a2107506430979f9824c9458cb34b3"
 
 [[files]]
+file = "credits.txt"
+hash = "23d0d7c29c9a8438f3b99de7e3220ed20d1b135b1db98739cf942dbd4336cd96"
+
+[[files]]
 file = "mods/ad-astra-fabric.pw.toml"
 hash = "58f020a43ef82eeb00ddc85c90a0c795df391e62e5781340fe52751eaa266fec"
 metafile = true
@@ -475,4 +479,32 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "93478201e5e5ec5dd8b08ccfe971aac8c76f55c8e94b659d3dab1f596526b5f2"
+hash = "c139d7e2aa32d1aad575c8b4e4cf5650f508854cf87175985039be02d90f68e7"
+
+[[files]]
+file = "resourcepacks/VanillaTweaks_c640112.zip"
+hash = "c32bfdc6317ea23f6701263e9a8ea7221a3d0c602a2fa5b0f68b19f7849e4585"
+
+[[files]]
+file = "resourcepacks/VanillaTweaks_r467736.zip"
+hash = "df31d1aee64a0753297e7bb4905d3caf3736f3aeba390f682a8c59453de044cc"
+
+[[files]]
+file = "resourcepacks/anti enderman grief v1.1.2.zip"
+hash = "1d4a59bc8da213862bcadea288d2ebaa6f9b076b840a4267acd813c8a7c92fca"
+
+[[files]]
+file = "resourcepacks/bat membranes v1.0.3.zip"
+hash = "795b63c2a13a2096341f6ddf5c9c47e604b433651debe2698c43447b95a88404"
+
+[[files]]
+file = "resourcepacks/classic fishing loot v1.1.2.zip"
+hash = "3538d461d61a8f0a3fdf743fa2bc1dc2278b51a5d3a2a137044cf46220c24376"
+
+[[files]]
+file = "resourcepacks/more mob heads v2.9.5.zip"
+hash = "5af71ed66da183d9d3eaa3d8f014d69fb43ae18ec624c39cfdfbb02a0e88bf0e"
+
+[[files]]
+file = "resourcepacks/player head drops v1.1.2.zip"
+hash = "499d8f0c1df4bf220c5ae80b9484c886728cebf14b7611a2463846ec990669f1"
