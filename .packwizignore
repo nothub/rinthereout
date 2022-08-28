@@ -12,9 +12,9 @@
 /.packwizignore
 
 /build.sh
+/server.sh
+/example.service
 /*.mrpack
-/dependencies.json
 
 /LICENSE.txt
 /README.md
-/MODS.md

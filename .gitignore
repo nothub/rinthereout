@@ -1,6 +1,3 @@
 /.idea/**
 /.vscode/**
-
 /*.mrpack
-/dependencies.json
-/MODS.md
