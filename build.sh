@@ -3,28 +3,21 @@
 set -o errexit
 set -o pipefail
 
-check_dependency() {
-    if ! command -v "$1" >/dev/null 2>&1; then
-        echo >&2 "Error: Missing dependency: $1"
+for dep in "packwiz" "curl" "jq" "rg" "zip"; do
+    if ! command -v "${dep}" >/dev/null 2>&1; then
+        echo >&2 "Error: Missing dependency: ${dep}"
         exit 1
     fi
-}
-
-check_dependency packwiz
-check_dependency curl
-check_dependency jq
-check_dependency rg
-check_dependency zip
+done
 
 # build mrpack
 packwiz refresh
 packwiz modrinth export
+zip --update --recurse-paths \
+    "$(find -- * -type f -iname '*.mrpack' | head -n1)" \
+    "overrides" "client-overrides" "server-overrides"
 
-# add override folders
-mrpack=$(find -- * -type f -iname '*.mrpack' | head -n1)
-zip --update --recurse-paths "${mrpack}" "overrides" "client-overrides" "server-overrides"
-
-# generate mod list
+# fetch mod infos
 mod_ids=()
 for f in ./mods/*; do
     # shellcheck disable=SC2016
@@ -35,6 +28,8 @@ curl --silent --location --get \
     --header "Accept: application/json" \
     "https://api.modrinth.com/v2/projects" \
     | jq >dependencies.json
+
+# generate markdown list
 echo "| Title | Description | License | Wiki | Source | Discord |" >MODS.md
 echo "| --- | --- | --- | --- | --- | --- |" >>MODS.md
 jq --raw-output \
