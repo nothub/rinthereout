@@ -1,6 +1,6 @@
 name = "Rinthereout"
 author = "hub"
-version = "0.2.0-indev"
+version = "0.3.0-indev"
 description = "A Kitchen-sink Fabric Modpack"
 pack-format = "packwiz:1.1.0"
 
