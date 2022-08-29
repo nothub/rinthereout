@@ -421,11 +421,6 @@ hash = "1420f07c0e8b95e6546bf4713b2b0b594709baf44f9508eb3d4f704cfa5e9086"
 metafile = true
 
 [[files]]
-file = "mods/terra.pw.toml"
-hash = "d3df5f333ab62716ee0418ad9654a3bead43f69ccf26dfbcda81d1ab3e6d5606"
-metafile = true
-
-[[files]]
 file = "mods/things.pw.toml"
 hash = "6ee2b19242cfa341ac4377d048890e4abed6b4ac5861199f1f1d78c2a082e1b7"
 metafile = true
