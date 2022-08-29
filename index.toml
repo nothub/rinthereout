@@ -251,6 +251,11 @@ hash = "83541b1d3e1e936638a6938eb505bf0f508c13aed7f8416af8d064ffc7cda4dc"
 metafile = true
 
 [[files]]
+file = "mods/logic-gates-fabric.pw.toml"
+hash = "c314990990b62fb93f8a5b4c6ece4489f7b91114994ac4a806ef377dbbdb69ee"
+metafile = true
+
+[[files]]
 file = "mods/magitek-mechs.pw.toml"
 hash = "48bfa62eef9db849a5ffc77b2ec433b160db5ee6a89cda26838245583c857e4d"
 metafile = true
@@ -413,6 +418,11 @@ metafile = true
 [[files]]
 file = "mods/tempad.pw.toml"
 hash = "1420f07c0e8b95e6546bf4713b2b0b594709baf44f9508eb3d4f704cfa5e9086"
+metafile = true
+
+[[files]]
+file = "mods/terra.pw.toml"
+hash = "d3df5f333ab62716ee0418ad9654a3bead43f69ccf26dfbcda81d1ab3e6d5606"
 metafile = true
 
 [[files]]
