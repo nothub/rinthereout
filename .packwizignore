@@ -13,7 +13,7 @@
 
 /build.sh
 /server.sh
-/example.service
+/mrpack-install
 /*.mrpack
 
 /LICENSE.txt
