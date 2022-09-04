@@ -1,4 +1,6 @@
 # This is an example systemd service unit file.
+# Prior to useage, check and adjust the following variables to your needs:
+# "User", "Group", "WorkingDirectory", "ReadWritePaths" and "ExecStart"
 
 [Unit]
 
@@ -6,6 +8,7 @@ Description=Rinthereout Minecraft Server
 Documentation=https://github.com/nothub/rinthereout
 
 After=network.target
+
 
 [Service]
 
@@ -40,12 +43,13 @@ ProtectKernelTunables=yes
 ProtectKernelModules=yes
 ProtectKernelLogs=yes
 ProtectControlGroups=yes
-RestrictAddressFamilies=AF_INET
+RestrictAddressFamilies=AF_INET  AF_INET6
 LockPersonality=yes
 #MemoryDenyWriteExecute=yes # breaks jvm functionality
 RestrictSUIDSGID=yes
 RemoveIPC=yes
 NoNewPrivileges=yes
+
 
 [Install]
 
