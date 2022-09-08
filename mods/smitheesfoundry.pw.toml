@@ -1,0 +1,13 @@
+name = "Smithee's Foundry - Modular Tools for Fabric"
+filename = "smithees-foundry-1.5.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qzKPv7RF/versions/vaJxhpu4/smithees-foundry-1.5.0.jar"
+hash-format = "sha1"
+hash = "c9881208d2638c0ac0c132cfae24334ed33367c1"
+
+[update]
+[update.modrinth]
+mod-id = "qzKPv7RF"
+version = "vaJxhpu4"

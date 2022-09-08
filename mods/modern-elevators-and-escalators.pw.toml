@@ -1,0 +1,13 @@
+name = "Modern Elevators and Escalators"
+filename = "Modern-Elevators-Escalators-fabric-1.18.2-3.0.1-prerelease-1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/VmZO1Bdj/versions/FABRIC-1.18.2-3.0.0-prerelease-1/Modern-Elevators-Escalators-fabric-1.18.2-3.0.1-prerelease-1.jar"
+hash-format = "sha1"
+hash = "a578f21719937a7fe6133f66ba315ba531657706"
+
+[update]
+[update.modrinth]
+mod-id = "VmZO1Bdj"
+version = "lu34Zizw"

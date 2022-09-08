@@ -1,0 +1,13 @@
+name = "Scannable"
+filename = "scannable-1.18.2-fabric-1.7.7+67bcbed.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/YqFnwJHf/versions/1.7.7/scannable-1.18.2-fabric-1.7.7%2B67bcbed.jar"
+hash-format = "sha1"
+hash = "a6f5df8ba88d1f680c9981556f6061d26d06b92a"
+
+[update]
+[update.modrinth]
+mod-id = "YqFnwJHf"
+version = "XOchvIwK"
