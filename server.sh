@@ -7,13 +7,6 @@ project_slug="rinthereout"
 server_dir="${project_slug}-server"
 jvm_memory="4G"
 
-for dep in "curl" "java" "jq"; do
-    if ! command -v "${dep}" >/dev/null 2>&1; then
-        echo >&2 "Missing dependency: ${dep}"
-        exit 1
-    fi
-done
-
 # download mrpack installer
 if [[ ! -f mrpack-install ]]; then
     release_assets=$(curl --silent --location https://api.github.com/repos/nothub/mrpack-install/releases/latest)
@@ -24,7 +17,7 @@ if [[ ! -f mrpack-install ]]; then
 fi
 
 # deploy modpack server
-if [[ $# -gt 0 ]] && [[ -f ${1} ]]; then
+if [[ $# -gt 0 ]]; then
     ./mrpack-install "${1}" --server-dir ${server_dir} --server-file fabric-server.jar
 else
     ./mrpack-install ${project_slug} --server-dir ${server_dir} --server-file fabric-server.jar
