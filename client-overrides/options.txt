@@ -8,7 +8,7 @@ guiScale:2
 joinedFirstServer:true
 pauseOnLostFocus:false
 realmsNotifications:false
-resourcePacks:["vanilla","programer_art","Fabric Mods","Theinar Language","file/VanillaTweaks_r467736.zip"]
+resourcePacks:["vanilla","programer_art","Fabric Mods","Theinar Language","file/VanillaTweaks_r467736.zip","menumusic.zip"]
 skipMultiplayerWarning:true
 snooperEnabled:false
 soundCategory_ambient:0.25
