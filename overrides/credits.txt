@@ -1,4 +1,5 @@
 Credits:
 Vanilla Tweaks: https://vanillatweaks.net/
-carina-nebula.png: https://webbtelescope.org/contents/media/images/2022/031/01G77PKB8NKR7S8Z6HBXMYATGJ
-Typecast (title menu music): https://www.context-sensitive.com/
+Carina Nebula (load screen): https://webbtelescope.org/contents/media/images/2022/031/01G77PKB8NKR7S8Z6HBXMYATGJ
+Hubble Legacy Field (menu panorama): https://hubblesite.org/contents/media/images/2019/17/4493-Image.html
+Typecast (menu music): https://www.context-sensitive.com/
