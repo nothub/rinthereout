@@ -3,9 +3,9 @@ filename = "menumusic-1.0.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/To1L7Q0X/versions/OrEBZJqr/menumusic-1.0.jar"
+url = "https://cdn.modrinth.com/data/To1L7Q0X/versions/OrEBZJqr/menumusic-1.18.2-1.0-fabric.jar"
 hash-format = "sha1"
-hash = "ad73b199d0286547a1d721888ba7df0bc14194aa"
+hash = "3f0096511c44966c0b001b86cb45b3c015dca65c"
 
 [update]
 [update.modrinth]
