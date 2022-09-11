@@ -1,0 +1,13 @@
+name = "Menu Music"
+filename = "menumusic-1.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/To1L7Q0X/versions/OrEBZJqr/menumusic-1.0.jar"
+hash-format = "sha1"
+hash = "ad73b199d0286547a1d721888ba7df0bc14194aa"
+
+[update]
+[update.modrinth]
+mod-id = "To1L7Q0X"
+version = "OrEBZJqr"

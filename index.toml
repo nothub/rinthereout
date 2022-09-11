@@ -276,6 +276,11 @@ hash = "9a91df0b4bd7070f69ef1010e994626d118e6f02c6871297f567aa994023b062"
 metafile = true
 
 [[files]]
+file = "mods/menumusic.pw.toml"
+hash = "961a86adf6a69b81f12e8d3c3c84ea6b4cb34054c9ba51de0750c6fa75b7504f"
+metafile = true
+
+[[files]]
 file = "mods/minecraft-comes-alive-reborn.pw.toml"
 hash = "c35ee51da533ab1d6d33c97a0affc92c7c5625a7b3a278fb18c7e0ebf2f978be"
 metafile = true
