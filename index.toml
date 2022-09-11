@@ -277,7 +277,7 @@ metafile = true
 
 [[files]]
 file = "mods/menumusic.pw.toml"
-hash = "a3c165945256927585f9ce637e7f8b30b272b141f0bfdeb4269ff221b6916735"
+hash = "de8477e27df4e48457dd1198a06c4016df97899befed848c2f74a6ca44e6e442"
 metafile = true
 
 [[files]]

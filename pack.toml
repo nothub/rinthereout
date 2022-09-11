@@ -1,13 +1,13 @@
 name = "Rinthereout"
 author = "hub"
-version = "0.4.2-indev"
+version = "0.4.3-indev"
 description = "A Kitchen-sink Fabric Modpack"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "e22d47084a2da89b42c1fb505c36baecac292553bc35aae0a29df6578944b912"
+hash = "3c85bf4c3b42100be69919fde86049f74400a44c3a9d1b8f6561e37d29803f49"
 
 [versions]
 fabric = "0.14.9"
