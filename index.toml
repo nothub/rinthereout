@@ -96,6 +96,11 @@ hash = "b300eda9e302fd0710735da40a5f368c14db803f2a34de364ba357298b5e3dcd"
 metafile = true
 
 [[files]]
+file = "mods/clear-skies.pw.toml"
+hash = "f017a0ff2c17072d79326247d3ba4bfb62ce49dbe445ffdcafb474f6818bf223"
+metafile = true
+
+[[files]]
 file = "mods/client-commands.pw.toml"
 hash = "c5497b2f9ddd73a54bb12be1ce6d82a71604a14c11811ff0678ad2ad5ba7e4f6"
 metafile = true
