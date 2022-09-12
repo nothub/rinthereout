@@ -96,6 +96,11 @@ hash = "b300eda9e302fd0710735da40a5f368c14db803f2a34de364ba357298b5e3dcd"
 metafile = true
 
 [[files]]
+file = "mods/client-commands.pw.toml"
+hash = "c5497b2f9ddd73a54bb12be1ce6d82a71604a14c11811ff0678ad2ad5ba7e4f6"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "c7db587d0799043490a1cdc144bbcc7a3ddaaff13e2f5ebbb145b796c1ce7115"
 metafile = true
@@ -123,6 +128,11 @@ metafile = true
 [[files]]
 file = "mods/custom-splash-screen.pw.toml"
 hash = "23e3c4cb4e2ee0ed4cd1d9a8e1960578cf3e49839813c7930c4809aba304a1f7"
+metafile = true
+
+[[files]]
+file = "mods/dashloader.pw.toml"
+hash = "85e34af2fc1869a3d6e9b7f1f91b59dfdd124709b27482cd5864acb0d120213b"
 metafile = true
 
 [[files]]
@@ -203,6 +213,11 @@ metafile = true
 [[files]]
 file = "mods/globalpacks.pw.toml"
 hash = "cdcaabf77376beb8db2950b9ec442214bc2470e03e6f42db2517dfc5c233f432"
+metafile = true
+
+[[files]]
+file = "mods/haema.pw.toml"
+hash = "30415bb06f782ee54d22b083f36994022db7c9ff806a7328b98839a21ff630bd"
 metafile = true
 
 [[files]]
@@ -348,6 +363,16 @@ metafile = true
 [[files]]
 file = "mods/openblocks-elevator-fabric.pw.toml"
 hash = "894a257fd9ac4d24db6e854c3ca60a684c17a618f9513e1d909b24186a4305f6"
+metafile = true
+
+[[files]]
+file = "mods/origins-classes.pw.toml"
+hash = "e86696acaa29f3e9732505a051010a98dd247ded2d669349a754602e72962916"
+metafile = true
+
+[[files]]
+file = "mods/origins.pw.toml"
+hash = "f8cf32a9a4872c9c66312237e1d12bd6dd427ebce1686cd2c499991a86f0ad7e"
 metafile = true
 
 [[files]]
