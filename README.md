@@ -21,10 +21,11 @@ The following Mods are included (non exhaustive):
 - [Open Parties and Claims](https://modrinth.com/mod/open-parties-and-claims)
 - [Paradise Lost](https://modrinth.com/mod/paradise-lost)
 
-The Modpack also contains some [Resource Packs](https://vanillatweaks.net/share#zZlE69), [Data Packs](https://vanillatweaks.net/share#pAYfAw) and [Crafting Tweaks](https://vanillatweaks.net/share#3nV9x2).
-
 ---
 
-Credits:  
-Vanilla Tweaks: [https://vanillatweaks.net/](https://vanillatweaks.net/)  
-carina-nebula.png: [https://webbtelescope.org/](https://webbtelescope.org/contents/media/images/2022/031/01G77PKB8NKR7S8Z6HBXMYATGJ)
+Credits:
+
+- Vanilla Tweaks: [vanillatweaks.net](https://vanillatweaks.net/)
+- Carina Nebula (load screen): [webbtelescope.org](https://webbtelescope.org/contents/media/images/2022/031/01G77PKB8NKR7S8Z6HBXMYATGJ)
+- Hubble Legacy Field (menu panorama): [hubblesite.org](https://hubblesite.org/contents/media/images/2019/17/4493-Image.html)
+- Typecast (menu music): [context-sensitive.com](https://www.context-sensitive.com/)
