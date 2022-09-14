@@ -241,6 +241,11 @@ hash = "6d87c09745fce63fb64d8c8a521491ed083068d0dfca426cd0b06dc4e24adf42"
 metafile = true
 
 [[files]]
+file = "mods/item-model-fix.pw.toml"
+hash = "56e3f31a4b60597aba78b84fd66a39d13280d3a125f6a9bf7dc65ed0f9af009c"
+metafile = true
+
+[[files]]
 file = "mods/journeymap-integration.pw.toml"
 hash = "90a89a1a94884a4735d103b89ecfa2f6e813a932dc0cbe0b3aa0c25d31956601"
 metafile = true
